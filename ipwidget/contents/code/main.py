@@ -9,14 +9,14 @@ class ipwidgetPython(plasmascript.Applet):
         plasmascript.Applet.__init__(self,parent)
  
     def init(self):
-        self.setHasConfigurationInterface(False)
-        self.resize(125, 125)
-        self.setAspectRatioMode(Plasma.Square)
+        self.setHasConfigurationInterface(True)
+        self.resize(350, 150)
+        #self.setAspectRatioMode(Plasma.Square)
  
     def paintInterface(self, painter, option, rect):
         painter.save()
-        painter.setPen(Qt.white)
-        painter.drawText(rect, Qt.AlignVCenter | Qt.AlignHCenter, "Ipwidget")
+        painter.setPen(Qt.green)
+        painter.drawText(rect, Qt.AlignVCenter | Qt.AlignHCenter, "Your current ip:\nx.x.x.x")
         painter.restore()
  
 def CreateApplet(parent):
