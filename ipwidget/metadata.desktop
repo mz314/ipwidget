@@ -1,0 +1,17 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=IP Widget
+Type=Service
+ServiceTypes=Plasma/Applet
+Icon=chronometer
+X-Plasma-API=python
+X-Plasma-MainScript=code/main.py
+X-KDE-PluginInfo-Author=Maciej Zakrzewski
+X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-Name=hello-python
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=Custom made
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
