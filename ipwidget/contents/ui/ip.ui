@@ -25,7 +25,7 @@
    <property name="title">
     <string>Server url</string>
    </property>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="url">
     <property name="geometry">
      <rect>
       <x>40</x>
@@ -48,7 +48,7 @@
    <property name="title">
     <string>Refresh interval (seconds)</string>
    </property>
-   <widget class="QSpinBox" name="spinBox">
+   <widget class="QSpinBox" name="refresh">
     <property name="geometry">
      <rect>
       <x>150</x>
